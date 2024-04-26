@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Cart">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="My Cart"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/round_corner_cart"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/item"
+            android:id="@+id/cartProd"
+            android:background="@drawable/rounded_corner_cart2"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentStart="true"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/cartProd"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/cartTitleTxt"
+            android:layout_marginTop="8dp"
+            android:text="Oral Irrigator Electirc"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cartTitleTxt"
+            android:layout_toEndOf="@+id/cartProd"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cartProdPrice"
+            android:textSize="15sp"
+            android:text="Price : $22.50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cartProdPrice"
+            android:layout_toEndOf="@+id/cartProd"
+            android:layout_marginTop="2dp"
+            android:id="@+id/cartQty"
+            android:textSize="15sp"
+            android:text="Qty : 1"/>
+
+        <LinearLayout
+            android:layout_width="147dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:layout_below="@+id/cartTitleTxt"
+            android:layout_marginStart="80dp"
+            android:weightSum="3"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/cartQty">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_horizontal_rule_24"
+                android:padding="8dp"
+                android:background="@drawable/box_shape"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_add_24"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/box_shape"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/round_corner_cart"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/item"
+            android:id="@+id/cartProd1"
+            android:background="@drawable/rounded_corner_cart2"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/cartProd1"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/cartTitleTxt1"
+            android:layout_marginTop="8dp"
+            android:text="Oral Irrigator Electirc"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cartTitleTxt1"
+            android:layout_toEndOf="@+id/cartProd1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/cartProdPrice1"
+            android:textSize="15sp"
+            android:text="Price : $22.50"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cartProdPrice1"
+            android:layout_toEndOf="@+id/cartProd1"
+            android:layout_marginTop="2dp"
+            android:id="@+id/cartQty1"
+            android:textSize="15sp"
+            android:text="Qty : 1"/>
+
+        <LinearLayout
+            android:layout_width="147dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:layout_below="@+id/cartTitleTxt1"
+            android:layout_marginStart="80dp"
+            android:weightSum="3"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/cartQty1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_horizontal_rule_24"
+                android:padding="8dp"
+                android:background="@drawable/box_shape"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="1"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_add_24"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/box_shape"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/box_shape"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:text="Total"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:text="$200.0"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:text="Discount"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:text="$15.0"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:text="Delivery"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:text="Free"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#EDF1F1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:text="Sub Total"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:text="$185.0"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out"
+        android:background="@drawable/login_button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
