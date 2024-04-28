@@ -35,36 +35,26 @@ Contributions to Medocpro are welcome! If you have any ideas for new features, i
 
 **Screenshots:**
 
-**Screenshots:**
+<p align="center">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/3174f584-9ec0-4fa6-8a1c-82258eba1772" width="200" alt="About Medocpro App">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/c076a80d-bc71-47ce-9c89-470bee60a4da" width="200" alt="Login Page">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/1f93186d-3d7f-401c-98b0-c0c51a840aec" width="200" alt="Sign Up Page">
+</p>
+<p align="center">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/b318a8be-e789-4a42-9edb-f96bf23af66c" width="200" alt="Home Page">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/db86d3d6-5c45-4ec3-ab5f-b8a6e51ae58d" width="200" alt="Home Page">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/e8820a4c-e64b-4dd5-85a9-4b5688c4c6fc" width="200" alt="My Cart">
+</p>
+<p align="center">
+  <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/38898a5f-a244-4410-bff2-dab844d060d2" width="200" alt="Check Out Page">
+</p>
 
-<div style="display: flex; justify-content: center;">
+**Labels:**
 
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/3174f584-9ec0-4fa6-8a1c-82258eba1772" alt="About Medocpro App" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/c076a80d-bc71-47ce-9c89-470bee60a4da" alt="Login Page" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/1f93186d-3d7f-401c-98b0-c0c51a840aec" alt="Sign Up Page" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/b318a8be-e789-4a42-9edb-f96bf23af66c" alt="Home Page" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/db86d3d6-5c45-4ec3-ab5f-b8a6e51ae58d" alt="Home Page" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/e8820a4c-e64b-4dd5-85a9-4b5688c4c6fc" alt="My Cart" width="250">
-  </div>
-
-  <div style="margin: 10px;">
-    <img src="https://github.com/Atulp12/medocproapp_java/assets/107379234/38898a5f-a244-4410-bff2-dab844d060d2" alt="Check Out Page" width="250">
-  </div>
-
-</div>
+1. About Medocpro App
+2. Login Page
+3. Sign Up Page
+4. Home Page (First Image)
+5. Home Page (Second Image)
+6. My Cart
+7. Check Out Page
